@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+div img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h1, footer, h2 {
+    text-align: center;
+}
+
+h1,h2 {
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 50px 0px;
+}
+
+.caracteristicas, footer {
+ background-color: #1e1a13;
+}
+
+footer {
+    padding: 40px 0px;
+    font-size: 20px;
+}
+
+.icono {
+    margin-top: 20px;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.galeria img {
+    width: 30%;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.descripcion img, 
+.parrafo {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+    padding: 0px 20px;
+}
+
+
+
+.caracteristicas article {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
